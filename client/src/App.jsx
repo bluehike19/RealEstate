@@ -1,12 +1,19 @@
-import { useState } from 'react'
-
-import './App.css'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom'
+import Home from './pages/home/Home'
+import List from './pages/list/List'
 
 function App() {
-
-
   return (
-  <h1>heelo world</h1>
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/hotels' element={<List/>} />
+    </Routes>
+  </BrowserRouter>
   )
 }
 
