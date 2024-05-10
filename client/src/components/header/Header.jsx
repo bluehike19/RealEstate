@@ -5,7 +5,8 @@ import { faBed, faCar, faPlane, faTaxi } from '@fortawesome/free-solid-svg-icons
 const Header = () => {
   return (
     <div>
-        <div className="header">
+     <div className="header">
+        <div className="headerContainer">
           <div className="headerList">
             <div className="headerListItem">
              <FontAwesomeIcon  icon={faBed} />
@@ -29,6 +30,7 @@ const Header = () => {
             </div>
           </div>
         </div>
+     </div>
     </div>
   )
 }
