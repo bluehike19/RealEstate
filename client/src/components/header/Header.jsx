@@ -67,21 +67,27 @@ const Header = () => {
               <div className="options">
                 <div className="optionItem">
                   <span className="optionText">Adult</span>
+                  <div className="optionCounter">
                   <button className="optionCounterButton">-</button>
                   <span className="optionCounterNumber">1</span>
                   <button className="optionCounterButton">+</button>
+                  </div>
                 </div>
                 <div className="optionItem">
                   <span className="optionText">Children</span>
+                  <div className="optionCounter">
                   <button className="optionCounterButton">-</button>
                   <span className="optionCounterNumber">0</span>
                   <button className="optionCounterButton">+</button>
+                  </div>
                 </div>
                 <div className="optionItem">
                   <span className="optionText">Room</span>
+                  <div className="optionCounter">
                   <button className="optionCounterButton">-</button>
                   <span className="optionCounterNumber">1</span>
                   <button className="optionCounterButton">+</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -91,7 +97,7 @@ const Header = () => {
           </div>
         </div>
      </div>
-    </div>
+     </div>
   )
 }
 
