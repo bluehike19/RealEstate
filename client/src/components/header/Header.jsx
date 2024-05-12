@@ -16,6 +16,12 @@ const Header = () => {
       key: 'selection'
     }
   ])
+  const [openOptions, setOpenOptions] = useState(false)
+  const [options, setOptions] = useState({
+    adult: 1,
+    children: 0,
+    room: 1,
+  })
   return (
     <div>
      <div className="header">
@@ -52,12 +58,12 @@ const Header = () => {
             </div>
             <div className="headerSearchItem">
               <FontAwesomeIcon icon={faCalendarDays} className='headerIcon' />
-              <span onClick={()=>setOpenDate(!openDate)} className='headerSearchText'>{`${format(date[0].startDate,'mm/dd/yyyy')} to ${format(date[0].endDate,'mm/dd/yyyy')} `}</span>
+              <span onClick={()=>setOpenDate(!openDate)} className='headerSearchText'>{`${format(date[0].startDate,'MM/dd/yyyy')} to ${format(date[0].endDate,'MM/dd/yyyy')} `}</span>
             {openDate && <DateRange editableDateInputs={true} onChange={item =>setDate([item.selection])} moveRangeOnFirstSelection={false} ranges={date} className='date' />}
             </div>
             <div className="headerSearchItem">
               <FontAwesomeIcon icon={faPerson} className='headerIcon' />
-              <span className='headerSearchText'>2 adults 2 children 1 room</span>
+              <span className='headerSearchText'>{`${options.adult} adult ${options.children} children ${options.room} room`}</span>
             </div>
             <div className="headerSearchItem">
               <button className="headerBtn">Search</button>
