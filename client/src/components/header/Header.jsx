@@ -78,7 +78,7 @@ const Header = () => {
                 <div className="optionItem">
                   <span className="optionText">Adult</span>
                   <div className="optionCounter">
-                  <button className="optionCounterButton" onClick={()=>handleOption("adult", "d")}>-</button>
+                  <button className="optionCounterButton" disabled={options.adult <= 1} onClick={()=>handleOption("adult", "d")}>-</button>
                   <span className="optionCounterNumber">{options.adult}</span>
                   <button className="optionCounterButton" onClick={()=>handleOption("adult", "i")}>+</button>
                   </div>
@@ -86,7 +86,7 @@ const Header = () => {
                 <div className="optionItem">
                   <span className="optionText">Children</span>
                   <div className="optionCounter">
-                  <button className="optionCounterButton" onClick={()=>handleOption("childrens", "d")}>-</button>
+                  <button className="optionCounterButton" disabled={options.children <= 0} onClick={()=>handleOption("childrens", "d")}>-</button>
                   <span className="optionCounterNumber">{options.children}</span>
                   <button className="optionCounterButton" onClick={()=>handleOption("children", "i")}>+</button>
                   </div>
@@ -94,7 +94,7 @@ const Header = () => {
                 <div className="optionItem">
                   <span className="optionText">Room</span>
                   <div className="optionCounter">
-                  <button className="optionCounterButton" onClick={()=>handleOption("room", "d")}>-</button>
+                  <button className="optionCounterButton" disabled={options.room <= 1} onClick={()=>handleOption("room", "d")}>-</button>
                   <span className="optionCounterNumber">{options.room}</span>
                   <button className="optionCounterButton" onClick={()=>handleOption("room", "i")}>+</button>
                   </div>
