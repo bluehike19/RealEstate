@@ -22,6 +22,16 @@ const Header = () => {
     children: 0,
     room: 1,
   })
+
+  const handleOption = (name, operation) => {
+    setOptions((prev)=> {
+      return {
+        ...prev,
+        [name]: operation === "i" ? options[name] + 1: options[name] - 1,
+      }
+    })
+  }
+
   return (
     <div>
      <div className="header">
@@ -76,17 +86,17 @@ const Header = () => {
                 <div className="optionItem">
                   <span className="optionText">Children</span>
                   <div className="optionCounter">
-                  <button className="optionCounterButton" onClick={()=>handleOption("adult", "d")}>-</button>
+                  <button className="optionCounterButton" onClick={()=>handleOption("childrens", "d")}>-</button>
                   <span className="optionCounterNumber">0</span>
-                  <button className="optionCounterButton" onClick={()=>handleOption("adult", "i")}>+</button>
+                  <button className="optionCounterButton" onClick={()=>handleOption("children", "i")}>+</button>
                   </div>
                 </div>
                 <div className="optionItem">
                   <span className="optionText">Room</span>
                   <div className="optionCounter">
-                  <button className="optionCounterButton">-</button>
+                  <button className="optionCounterButton" onClick={()=>handleOption("room", "d")}>-</button>
                   <span className="optionCounterNumber">1</span>
-                  <button className="optionCounterButton">+</button>
+                  <button className="optionCounterButton" onClick={()=>handleOption("room", "i")}>+</button>
                   </div>
                 </div>
               </div>
