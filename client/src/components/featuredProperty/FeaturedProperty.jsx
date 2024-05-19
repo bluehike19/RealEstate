@@ -15,7 +15,7 @@ const FeaturedProperty = () => {
         <span>Excellent</span>
       </div>
       </div>
-    </div>
+    
     <div className='fpItem'>
     <img src="pic1.jpg" className="fpImg" />
     <span className="fpName">Aparthotel Stare Miasto</span>
@@ -35,6 +35,7 @@ const FeaturedProperty = () => {
     <button>8.9</button>
     <span>Excellent</span>
   </div>
+</div>
 </div>
 </>
   )
