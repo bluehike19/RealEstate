@@ -5,6 +5,7 @@ const FeaturedProperty = () => {
   return (
     <>
     <div className='fp'>
+      <div className="fpItem">
       <img src="pic1.jpg" alt="" />
       <span className="fpName">Aparthotel Stare Miasto</span>
       <span className="fpCity">Madrid</span>
@@ -13,8 +14,9 @@ const FeaturedProperty = () => {
         <button>8.9</button>
         <span>Excellent</span>
       </div>
+      </div>
     </div>
-    <div className='fp'>
+    <div className='fpItem'>
     <img src="pic1.jpg" alt="" />
     <span className="fpName">Aparthotel Stare Miasto</span>
     <span className="fpCity">Madrid</span>
@@ -24,7 +26,7 @@ const FeaturedProperty = () => {
       <span>Excellent</span>
     </div>
   </div>
-  <div className='fp'>
+  <div className='fpItem'>
   <img src="pic1.jpg" alt="" />
   <span className="fpName">Aparthotel Stare Miasto</span>
   <span className="fpCity">Madrid</span>
