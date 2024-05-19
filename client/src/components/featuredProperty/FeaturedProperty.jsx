@@ -6,7 +6,7 @@ const FeaturedProperty = () => {
     <>
     <div className='fp'>
       <div className="fpItem">
-      <img src="pic1.jpg" alt="" />
+      <img src="pic1.jpg" className="fpImg" />
       <span className="fpName">Aparthotel Stare Miasto</span>
       <span className="fpCity">Madrid</span>
       <span className="fpPrice">Starting from $120</span>
@@ -17,7 +17,7 @@ const FeaturedProperty = () => {
       </div>
     </div>
     <div className='fpItem'>
-    <img src="pic1.jpg" alt="" />
+    <img src="pic1.jpg" className="fpImg" />
     <span className="fpName">Aparthotel Stare Miasto</span>
     <span className="fpCity">Madrid</span>
     <span className="fpPrice">Starting from $120</span>
@@ -27,7 +27,7 @@ const FeaturedProperty = () => {
     </div>
   </div>
   <div className='fpItem'>
-  <img src="pic1.jpg" alt="" />
+  <img src="pic1.jpg" className="fpImg" />
   <span className="fpName">Aparthotel Stare Miasto</span>
   <span className="fpCity">Madrid</span>
   <span className="fpPrice">Starting from $120</span>
