@@ -4,8 +4,8 @@ import React from 'react'
 const MailList = () => {
   return (
     <div className="mail">
-        <h1 className="mailTitle"></h1>
-        <span className="mailDesc"></span>
+        <h1 className="mailTitle">Save time, save money!</h1>
+        <span className="mailDesc">Sign up and we'll send you an Email</span>
         <div className="mailInputContainer">
             <input type="text" placeholder='Your Email' />
             <button>Subscribe</button>
