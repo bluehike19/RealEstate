@@ -3,7 +3,9 @@ import React from 'react'
 
 const MailList = () => {
   return (
-    <div>MailList</div>
+    <div className="mail">
+        <h1 className="mailTitle"></h1>
+    </div>
   )
 }
 
