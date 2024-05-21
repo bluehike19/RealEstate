@@ -52,6 +52,7 @@ const Footer = () => {
                 <li className="fListItem">Airports</li>
                 <li className="fListItem">Hotels</li>
             </ul>
+            © 2024
         </div>
     </div>
   )
