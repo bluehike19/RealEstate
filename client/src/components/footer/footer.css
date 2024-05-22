@@ -13,7 +13,7 @@
 
 .fList {
     list-style: none;
-    padding: none;
+    padding: 0;
 }
 
 .pListItem {
