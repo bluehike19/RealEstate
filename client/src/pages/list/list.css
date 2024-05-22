@@ -34,7 +34,24 @@
 }
 
 .lsItem>label {
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.lsItem>input {
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.lsItem>span {
+    border-radius: 4px;
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .listResult {
