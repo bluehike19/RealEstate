@@ -10,6 +10,7 @@ const List = () => {
       <div className="listContainer">
         <div className="listWrapper">
           <div className="listSearch">
+            <h1 className='lsTitle'>Search</h1>
           </div>
           <div className="listResult"></div>
         </div>
