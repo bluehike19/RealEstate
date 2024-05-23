@@ -2,7 +2,7 @@ import './searchItem.css'
 
 const SearchItem = () => {
   return (
-    <div className='SearchItem'>
+    <div className='searchItem'>
         <img src="pic1.jpg" alt="" className='siImg' />
         <div className="siDesc">
             <h1 className='siTitle'>Tower Street Apartment</h1>
