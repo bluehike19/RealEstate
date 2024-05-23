@@ -13,7 +13,7 @@ const SearchItem = () => {
             <span className="siCanceLop">Free cancellation</span>
             <span className="siCancelOpSubtitle">You can cancel later, so lock in this great price today!</span>
          </div>    
-         .siDetails
+         <div className="siDetails">details</div>
     </div>
   )
 }
