@@ -3,7 +3,7 @@ import './searchItem.css'
 const SearchItem = () => {
   return (
     <div className='SearchItem'>
-        <img src="pic1" alt="" className='siImg' />
+        <img src="pic1.jpg" alt="" className='siImg' />
         <div className="siDesc">
             <h1 className='siTitle'>Tower Street Apartment</h1>
             <span className="siDistance">500m from center</span>
