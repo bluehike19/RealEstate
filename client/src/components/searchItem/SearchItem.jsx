@@ -16,6 +16,10 @@ const SearchItem = () => {
          <div className="siDetails">
           <div className="SiRating">
             <span>Excellent</span>
+            <button>8.9</button>
+          </div>
+          <div className="siDetailTexts">
+            <span className="siPrice"></span>
           </div>
          </div>
     </div>
