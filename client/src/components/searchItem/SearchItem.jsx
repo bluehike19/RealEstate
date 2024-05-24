@@ -20,6 +20,7 @@ const SearchItem = () => {
           </div>
           <div className="siDetailTexts">
             <span className="siPrice"></span>
+            <span className="siPrice"></span>
           </div>
          </div>
     </div>
