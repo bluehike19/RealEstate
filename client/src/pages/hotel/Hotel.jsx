@@ -2,8 +2,11 @@ import './hotel.css'
 
 const Hotel = () => {
   return (
-    <div>Hotel</div>
+    <div>
+    <Navbar/>
+    <Header type='list'/>
+    </div>
   )
 }
 
-export default Hotel
+export default Hotel;
