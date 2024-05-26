@@ -89,6 +89,19 @@
     gap: 5px;
 }
 
-.siPrice {}
+.siPrice {
+    font-size: 24px;
+}
 
-.siTaxiOp {}
+.siTaxOp {
+    font-size: 12px;
+    color: gray;
+}
+
+.siCheckButton {
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    padding: 8px 3px;
+    border: none;
+}
