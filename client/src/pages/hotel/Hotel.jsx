@@ -7,6 +7,7 @@ const Hotel = () => {
     <div>
     <Navbar/>
     <Header type='list'/>
+    span
     </div>
   )
 }
