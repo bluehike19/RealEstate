@@ -64,7 +64,12 @@
 
 .siRating {}
 
-.siDetailsTexts {}
+.siDetailsTexts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
 .siPrice {}
 
