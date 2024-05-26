@@ -60,9 +60,27 @@
 
 .siDetails {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.siRating {}
+.siRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.siRating>span {
+    font-weight: 500;
+}
+
+.siRating>button {
+    background-color: #003580;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
 
 .siDetailsTexts {
     text-align: right;
