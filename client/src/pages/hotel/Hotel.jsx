@@ -19,6 +19,18 @@ const Hotel = () => {
     {
       src: '/pic4.jpg'
     },
+    {
+      src: '/pic1.jpg'
+    },
+    {
+      src: '/pic2.jpg'
+    },
+    {
+      src: '/pic3.jpg'
+    },
+    {
+      src: '/pic4.jpg'
+    },
   ]
 
   return (
