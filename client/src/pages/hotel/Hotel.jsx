@@ -5,8 +5,11 @@ import './hotel.css'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import MailList from '../../components/mailList/MailList';
 import Footer from '../../components/footer/Footer';
+import { useState } from 'react';
 
 const Hotel = () => {
+
+  const [slideImg, setSlideImg] = useState(0)
 
   const photos = [
     {
