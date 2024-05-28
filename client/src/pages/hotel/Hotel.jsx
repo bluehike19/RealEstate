@@ -3,6 +3,8 @@ import Header from '../../components/header/Header';
 import Navbar from '../../components/navbar/Navbar';
 import './hotel.css'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import MailList from '../../components/mailList/MailList';
+import Footer from '../../components/footer/Footer';
 
 const Hotel = () => {
 
@@ -71,6 +73,8 @@ const Hotel = () => {
           </div>
         </div>
       </div>
+      <MailList />
+      <Footer />
     </div>
     </div>
   )
