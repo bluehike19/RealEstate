@@ -57,7 +57,7 @@ const Hotel = () => {
         <div className="hotelImages">
           {photos.map(photo=>(
             <div className="hotelImgWrapper">
-              <img src={photo.src} className="hotelImg" />
+              <img onClick={()=>} src={photo.src} className="hotelImg" />
             </div>
           ))}
         </div>
