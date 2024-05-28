@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const Hotel = () => {
 
-  const [slideImg, setSlideImg] = useState(0)
+  const [slideNumber, setSlideNumber] = useState(0)
 
   const photos = [
     {
@@ -57,7 +57,7 @@ const Hotel = () => {
         <div className="hotelImages">
           {photos.map(photo=>(
             <div className="hotelImgWrapper">
-              <img onClick={()=>} src={photo.src} className="hotelImg" />
+              <img onClick={()=>setSlideNumber(i)} src={photo.src} className="hotelImg" />
             </div>
           ))}
         </div>
