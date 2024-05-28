@@ -80,4 +80,22 @@
 
 .hotelDetailsPrice {
     flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hotelDetailsPrice > h1 {}
+.hotelDetailsPrice > span {}
+.hotelDetailsPrice > h2 {}
+.hotelDetailsPrice > button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
 }
