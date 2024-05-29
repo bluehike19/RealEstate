@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Header from '../../components/header/Header';
 import Navbar from '../../components/navbar/Navbar';
 import './hotel.css'
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faCircleXmark, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import MailList from '../../components/mailList/MailList';
 import Footer from '../../components/footer/Footer';
 import { useState } from 'react';
@@ -50,7 +50,7 @@ const Hotel = () => {
     <Header type='list'/>
     <div className="hotelContainer">
     {open && <div className="slider">
-      <FontAwesomeIcon icon={} />
+      <FontAwesomeIcon icon={faCircleXmark} />
       <FontAwesomeIcon icon={} />
       <FontAwesomeIcon icon={} />
       </div>}
