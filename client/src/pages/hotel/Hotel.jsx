@@ -39,6 +39,8 @@ const Hotel = () => {
     },
   ]
 
+  const handleOpen = () => {}
+
   return (
     <div>
     <Navbar/>
