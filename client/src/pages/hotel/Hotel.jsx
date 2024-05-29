@@ -39,7 +39,10 @@ const Hotel = () => {
     },
   ]
 
-  const handleOpen = () => {}
+  const handleOpen = () => {
+    setSlideNumber(i);
+    setOpen(true)
+  }
 
   return (
     <div>
