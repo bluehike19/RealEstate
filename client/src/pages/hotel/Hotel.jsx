@@ -52,6 +52,7 @@ const Hotel = () => {
     {open && <div className="slider">
       <FontAwesomeIcon icon={faCircleXmark} />
       <FontAwesomeIcon icon={faCircleArrowLeft} />
+      <div className="sliderWrapper"></div>
       <FontAwesomeIcon icon={faCircleArrowRight} />
       </div>}
       <div className="hotelWrapper">
