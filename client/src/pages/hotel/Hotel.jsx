@@ -44,7 +44,7 @@ const Hotel = () => {
     <Navbar/>
     <Header type='list'/>
     <div className="hotelContainer">
-    <div className="slider"></div>
+    {open && <div className="slider"></div>}
       <div className="hotelWrapper">
       <button className="bookNow">Reserve or book now</button>
         <h1 className="hotelTitle">Grand Hotel</h1>
@@ -59,7 +59,7 @@ const Hotel = () => {
         <div className="hotelImages">
           {photos.map(photo=>(
             <div className="hotelImgWrapper">
-              <img onClick={()=>setSlideNumber(i)} src={photo.src} className="hotelImg" />
+              <img onClick={handleOpen} src={photo.src} className="hotelImg" />
             </div>
           ))}
         </div>
