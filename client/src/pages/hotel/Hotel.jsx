@@ -43,6 +43,7 @@ const Hotel = () => {
     <Navbar/>
     <Header type='list'/>
     <div className="hotelContainer">
+    <div className="slider"></div>
       <div className="hotelWrapper">
       <button className="bookNow">Reserve or book now</button>
         <h1 className="hotelTitle">Grand Hotel</h1>
