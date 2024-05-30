@@ -107,3 +107,13 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.slider {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0071c2;
+    z-index: 999    ;
+}
