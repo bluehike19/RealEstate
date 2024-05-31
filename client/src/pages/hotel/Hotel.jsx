@@ -35,11 +35,13 @@ const Hotel = () => {
       src: '/pic3.jpg'
     },
     {
-      src: '/pic4.jpg'
+      src: '/pic2.jpg'
     },
     {
-      src: '/pic4.jpg'
+      src: '/pic3.jpg'
     },
+
+  
   ]
 
   const handleOpen = () => {
