@@ -13,6 +13,24 @@ const HotelSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    address: {
+        type: String,
+        required: true,
+    },
+    distance: {
+        type: String,
+        required: true,
+    },
+    photos: {
+        type: [String],
+    },
+    title: {
+        type: String,
+        required: true,
+    },
+    desc: {
+        
+    }
 })
 
 export default mongoose.model("Hotel", HotelSchema)
