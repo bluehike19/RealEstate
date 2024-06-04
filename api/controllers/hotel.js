@@ -74,7 +74,11 @@ export const countyByCity = async (req, res, next) => {
 
 export const countyByType = async (req, res, next) => {
     try {
-        
+        const hotelCount = await Hotel.countDocuments({ type: ""})
+        const apartmentCount = await Hotel.countDocuments({ type: "apartment"})
+        const resortCount = await Hotel.countDocuments({ type: "resort"})
+        const villaCount = await Hotel.countDocuments({ type: "villa"})
+        const cabinCount = await Hotel.countDocuments({ type: "cabin"})
     } catch (err) {
         next(err)
     }
