@@ -71,3 +71,11 @@ export const countyByCity = async (req, res, next) => {
         next(err)
     }
 }
+
+export const countyByType = async (req, res, next) => {
+    try {
+        
+    } catch (err) {
+        next(err)
+    }
+}
