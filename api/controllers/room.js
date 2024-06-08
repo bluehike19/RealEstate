@@ -1,0 +1,4 @@
+import Room from "../models/Room";
+import Hotel from "../models/Hotel";
+
+export const createRoom = async (req, res, next) => {s}
