@@ -1,4 +1,5 @@
 import Hotel from '../models/Hotel';
+import Room from '../models/Room';
 
 export const createHotel = async (req, res, next) => {
     const newHotel = new Hotel(re.body);
@@ -97,7 +98,7 @@ export const getHotelRooms = async (req, res, next) => {
         const hotel = await Hotel.findById(req.params.id);
         const list = await Promise.all(
             hotel.rooms.map((room)=> {
-                return room.findById(room);
+                return Room.findById(room);
             })
         );
         res.status(200).json(list)
