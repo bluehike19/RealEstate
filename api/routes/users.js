@@ -11,7 +11,7 @@ router.get("/checkAuthentication", verifyToken, (req,res,next)=> {
     res.send("hello user, you are logged in and you can delete your account")
 })
 
-//UPDATE
+//UPDATE USER
 router.put("/:id", updateUser)
 
 //DELETE
